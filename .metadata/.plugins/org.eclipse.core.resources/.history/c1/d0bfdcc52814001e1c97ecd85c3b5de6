@@ -2,8 +2,6 @@ package it.epicode.be;
 
 public class Helloworld {
 
-	String[] array = {"ciao", "mi", "chiamo", "gianluca", "falcone"};
-
 public static void main (String[] args)
 		{
 		// Stampa a console  la frase
@@ -15,18 +13,8 @@ public static int moltiplica (int x, int y) {
 	return result;
 }
 
-public static String concatena (String x, int y) {
-    String result1 = x + y;
-    return result1;
-}
-
-public static String[] inserisciInArray (String[] array , String x) {
-	array[3] = x;
-	return array;
-
-
 
 }
 
-}
+
 
