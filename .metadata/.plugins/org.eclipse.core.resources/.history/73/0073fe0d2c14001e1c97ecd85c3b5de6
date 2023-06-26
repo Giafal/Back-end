@@ -2,7 +2,7 @@ package it.epicode.be;
 
 public class Helloworld {
 
-	static String[] array = {"ciao", "mi", "chiamo", "gianluca", "falcone"};
+	String[] array = {"ciao", "mi", "chiamo", "gianluca", "falcone"};
 
 public static void main (String[] args)
 		{
@@ -26,10 +26,9 @@ public static String[] inserisciInArray (String[] array , String x) {
 	array[3] = x;
 	return array;
 
-}
 
 
 }
 
-
+}
 

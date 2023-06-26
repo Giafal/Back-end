@@ -10,6 +10,7 @@ public static void main (String[] args)
 		System.out.println("This is my first Epicode Java Project!");
 		System.out.println(moltiplica(3,2));
 		System.out.println(concatena("Club", 64));
+		System.out.println(inserisciInArray(array, "pippo"));
 		}
 
 public static int moltiplica (int x, int y) {
@@ -26,10 +27,9 @@ public static String[] inserisciInArray (String[] array , String x) {
 	array[3] = x;
 	return array;
 
-}
 
 
 }
 
-
+}
 
