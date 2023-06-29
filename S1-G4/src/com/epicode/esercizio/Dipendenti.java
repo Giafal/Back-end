@@ -79,7 +79,7 @@ public class Dipendenti {
 				"Dipartimento: " + x.dipartimento );
 	}
 	
-	public static void promuovi(Dipendenti x) {
+	public void promuovi(Dipendenti x) {
 		switch(x.livello) {
 		case OPERAIO:
 			x.livello = Livello.IMPIEGATO;
@@ -103,8 +103,8 @@ public class Dipendenti {
 		return x.stipendio;
 	}
 	
-	public double calcolaPaga(Dipendenti x, int n) {
-		return x.stipendio + (this.importoOrarioStraordinario*n);
+	public static double calcolaPaga(Dipendenti x, int n) {
+		return x.stipendio + (x.importoOrarioStraordinario*n);
 	}
 	
 	
