@@ -7,7 +7,7 @@ public class GestioneDipendenti {
 		Dipendenti d1 = new Dipendenti(1, 1000, 10, Livello.OPERAIO, Dipartimento.PRODUZIONE );
 		Dipendenti d2 = new Dipendenti(2, 1000, 10, Livello.OPERAIO, Dipartimento.PRODUZIONE );
 		Dipendenti d3 = new Dipendenti(3, 1200, 10, Livello.IMPIEGATO, Dipartimento.AMMINISTRAZIONE);
-		Dipendenti d4 = new Dipendenti(4, 2500, 10, Livello.DIRIGENTE, Dipartimento.VENDITE);
+		Dipendenti d4 = new Dipendenti(4, 2000, 10, Livello.DIRIGENTE, Dipartimento.VENDITE);
 		
 		Dipendenti.promuovi(d1);
 		Dipendenti.promuovi(d3);

@@ -71,12 +71,12 @@ public class Dipendenti {
 	}
 	
 	public void stampaDatiDipendente(Dipendenti x) {
-		System.out.println("Stipendio base: " + Dipendenti.stipendioBase +
-				"Matricola: " + this.matricola + 
-				"Stipendio: " + this.stipendio + 
-				"Straordinari: " + this.importoOrarioStraordinario +
-				"Livello: " + this.livello + 
-				"Dipartimento: " + this.dipartimento );
+		System.out.println("Stipendio base: " + Dipendenti.stipendioBase + " " +
+				"Matricola: " + x.matricola + " " +
+				"Stipendio: " + x.stipendio + " " +
+				"Straordinari: " + x.importoOrarioStraordinario + " " +
+				"Livello: " + x.livello + " " +
+				"Dipartimento: " + x.dipartimento );
 	}
 	
 	public static void promuovi(Dipendenti x) {
@@ -96,7 +96,7 @@ public class Dipendenti {
 		default:
 			System.out.println("Non puoi essere promosso");
 		}
-		System.out.println(x.livello);
+		System.out.println("Il dipendente è stato promosso a " + x.livello);
 	}
 	
 	public static double calcolaPaga(Dipendenti x) {
