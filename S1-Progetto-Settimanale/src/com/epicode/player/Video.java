@@ -35,6 +35,7 @@ public class Video extends ElementoMultimediale implements Volume, Luminosita{
 		return this.luminosita--;
 	}
 	
+	@Override
 	public void play() {
 		for(int i = 0; i < durata; i++) {
 			System.out.print(titolo);
@@ -50,5 +51,5 @@ public class Video extends ElementoMultimediale implements Volume, Luminosita{
 
 	@Override
 	protected void show() {}
-
+	
 }

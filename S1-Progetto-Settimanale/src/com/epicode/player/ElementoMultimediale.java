@@ -14,5 +14,7 @@ abstract public class ElementoMultimediale {
 	protected abstract void play();
 	
 	
+	
+	
 
 }

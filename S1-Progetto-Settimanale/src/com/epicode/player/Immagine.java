@@ -20,6 +20,7 @@ public class Immagine extends ElementoMultimediale implements Luminosita {
 		return this.luminosita--;
 	}
 	
+	@Override
 	public void show() {
 		System.out.print(titolo);
 		for(int i = 0; i < luminosita; i++) {
@@ -30,7 +31,10 @@ public class Immagine extends ElementoMultimediale implements Luminosita {
 	}
 
 	@Override
-	protected void play() {}
+	protected void play() {
+		
+	}
+
 	
 
 }
