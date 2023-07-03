@@ -1,0 +1,12 @@
+13:04:56.978 [main] INFO  com.epicode.esercizio.Main - Info log
+13:04:56.988 [main] DEBUG com.epicode.esercizio.Main - Debug log
+13:04:56.988 [main] ERROR com.epicode.esercizio.Main - Error log
+13:04:56.988 [main] WARN  com.epicode.esercizio.Main - Warning log
+15:35:58.113 [main] INFO  com.epicode.esercizio.Main - 8 
+15:35:58.120 [main] INFO  com.epicode.esercizio.Main - 4 
+15:35:58.120 [main] INFO  com.epicode.esercizio.Main - 4 
+15:35:58.120 [main] INFO  com.epicode.esercizio.Main - 8 
+15:35:58.121 [main] INFO  com.epicode.esercizio.Main - 9 
+16:00:12.565 [main] ERROR com.epicode.esercizio.Main - Errore, posizione dell'array non valida!!!
+16:00:57.502 [main] ERROR com.epicode.esercizio.Main - Errore, numero non valido!!!
+16:14:58.184 [main] ERROR com.epicode.esercizio2.Main - Errore, non si può dividere per 0!!!
