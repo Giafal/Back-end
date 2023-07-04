@@ -18,9 +18,9 @@ public class MainEsercizio2 {
 	public static Random rand = new Random();
 
 	public static void main(String[] args) {
-		creaLista(5);
-		invertiLista(creaLista(5));
-		pariDispari(creaLista(5), false);
+		List<Integer> lista = creaLista(5);
+		invertiLista(lista);
+		pariDispari(lista, false);
 
 	}
 	
