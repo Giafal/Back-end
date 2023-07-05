@@ -1,0 +1,33 @@
+2023-07-05 14:21:37,425 [Thread-0] INFO  com.epicode.esercizio1.TestThread - N.0-*
+2023-07-05 14:21:37,424 [Thread-1] INFO  com.epicode.esercizio1.TestThread - N.0-#
+2023-07-05 14:21:38,445 [Thread-1] INFO  com.epicode.esercizio1.TestThread - N.1-#
+2023-07-05 14:21:38,445 [Thread-0] INFO  com.epicode.esercizio1.TestThread - N.1-*
+2023-07-05 14:21:39,451 [Thread-0] INFO  com.epicode.esercizio1.TestThread - N.2-*
+2023-07-05 14:21:39,451 [Thread-1] INFO  com.epicode.esercizio1.TestThread - N.2-#
+2023-07-05 14:21:40,456 [Thread-0] INFO  com.epicode.esercizio1.TestThread - N.3-*
+2023-07-05 14:21:40,456 [Thread-1] INFO  com.epicode.esercizio1.TestThread - N.3-#
+2023-07-05 14:21:41,468 [Thread-0] INFO  com.epicode.esercizio1.TestThread - N.4-*
+2023-07-05 14:21:41,468 [Thread-1] INFO  com.epicode.esercizio1.TestThread - N.4-#
+2023-07-05 14:21:42,476 [Thread-1] INFO  com.epicode.esercizio1.TestThread - N.5-#
+2023-07-05 14:21:42,476 [Thread-0] INFO  com.epicode.esercizio1.TestThread - N.5-*
+2023-07-05 14:21:43,481 [Thread-1] INFO  com.epicode.esercizio1.TestThread - N.6-#
+2023-07-05 14:21:43,481 [Thread-0] INFO  com.epicode.esercizio1.TestThread - N.6-*
+2023-07-05 14:21:44,491 [Thread-0] INFO  com.epicode.esercizio1.TestThread - N.7-*
+2023-07-05 14:21:44,491 [Thread-1] INFO  com.epicode.esercizio1.TestThread - N.7-#
+2023-07-05 14:21:45,499 [Thread-1] INFO  com.epicode.esercizio1.TestThread - N.8-#
+2023-07-05 14:21:45,499 [Thread-0] INFO  com.epicode.esercizio1.TestThread - N.8-*
+2023-07-05 14:21:46,507 [Thread-1] INFO  com.epicode.esercizio1.TestThread - N.9-#
+2023-07-05 14:21:46,507 [Thread-0] INFO  com.epicode.esercizio1.TestThread - N.9-*
+2023-07-05 14:54:44,750 [Thread-0] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 499500
+2023-07-05 14:56:07,000 [Thread-2] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 499500
+2023-07-05 14:56:07,000 [Thread-0] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 499500
+2023-07-05 14:56:07,000 [Thread-1] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 499500
+2023-07-05 14:58:38,183 [Thread-0] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 499500
+2023-07-05 14:58:38,182 [Thread-2] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 499500
+2023-07-05 14:58:38,181 [Thread-1] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 499500
+2023-07-05 15:07:48,940 [Thread-2] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 50824
+2023-07-05 15:07:48,940 [Thread-1] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 49521
+2023-07-05 15:07:48,940 [Thread-0] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 50791
+2023-07-05 15:12:34,329 [Thread-0] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 51512
+2023-07-05 15:12:34,339 [Thread-1] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 50840
+2023-07-05 15:12:34,344 [Thread-2] INFO  com.epicode.esercizio1.TestThread - La somma dei numeri è: 49998
