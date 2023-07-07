@@ -89,10 +89,15 @@ public class Main {
 		}
 	
 	public static List<Product> filtroBoys(List<Product> lista) {
-		List<Product> listaFiltrata = lista.stream().filter(e -> e.getCategory() == "boys").map(e -> new Product(e.getId(), e.getName(), e.getCategory(), e.getPrice()*0.9)).collect(Collectors.toList());
+		List<Product> listaFiltrata = lista.stream()
+				.filter(e -> e.getCategory() == "boys")
+				.map(e -> new Product(e.getId(), e.getName(), e.getCategory(), e.getPrice()*0.9))
+				.collect(Collectors.toList());
 		
 		return listaFiltrata;
 	}
+	
+	
 		
 	}
 	
