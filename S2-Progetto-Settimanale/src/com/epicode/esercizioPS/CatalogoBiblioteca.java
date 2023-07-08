@@ -89,12 +89,14 @@ public class CatalogoBiblioteca {
 				elemento= Rivista.fromStringFile(curString);
 			}
 			this.archivio.put(elemento.getIsbn(), elemento);
-			
+			log.info(elemento.toString());
 		}
 		
 		
+		
+		
 		log.info("Dati caricati correttamente dal file: " + file);
-
+	
 	}
 	
 	
@@ -103,20 +105,20 @@ public class CatalogoBiblioteca {
 		
 		CatalogoBiblioteca catalogo = new CatalogoBiblioteca();
 		
-		Libro l1 = new Libro("001", "Guida galattica per autostoppisti", 1979, 224, "Douglas Adams", "Fantascienza");
-		Libro l2 = new Libro("002", "American Gods", 2001, 523, "Neil Gaiman", "Romanzo");
-		Rivista r1 = new Rivista("003", "Focus", 2023, 80, Periodicita.MENSILE);
-		Rivista r2 = new Rivista("004", "Internazionale", 2023, 80, Periodicita.SETTIMANALE);
-		Libro l3 = new Libro("005", "Stardust", 1997, 250, "Neil Gaiman", "Romanzo");
-		
-		catalogo.aggiungiArticolo(l1);
-		catalogo.aggiungiArticolo(l2);
-		catalogo.aggiungiArticolo(r1);
-		catalogo.aggiungiArticolo(r2);
-		catalogo.aggiungiArticolo(l3);
+//		Libro l1 = new Libro("001", "Guida galattica per autostoppisti", 1979, 224, "Douglas Adams", "Fantascienza");
+//		Libro l2 = new Libro("002", "American Gods", 2001, 523, "Neil Gaiman", "Romanzo");
+//		Rivista r1 = new Rivista("003", "Focus", 2023, 80, Periodicita.MENSILE);
+//		Rivista r2 = new Rivista("004", "Internazionale", 2023, 80, Periodicita.SETTIMANALE);
+//		Libro l3 = new Libro("005", "Stardust", 1997, 250, "Neil Gaiman", "Romanzo");
+//		
+//		catalogo.aggiungiArticolo(l1);
+//		catalogo.aggiungiArticolo(l2);
+//		catalogo.aggiungiArticolo(r1);
+//		catalogo.aggiungiArticolo(r2);
+//		catalogo.aggiungiArticolo(l3);
 		
 		try {
-			catalogo.salvaSuFile();
+//			catalogo.salvaSuFile();
 			catalogo.caricaDaFile();
 			
 			List<Articolo> cercaAutore = catalogo.ricercaPerAutore("Neil Gaiman");

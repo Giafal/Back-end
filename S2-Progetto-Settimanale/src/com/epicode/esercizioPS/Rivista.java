@@ -20,7 +20,7 @@ public class Rivista extends Articolo {
 
 	@Override
 	public String toString() {
-		return "Rivista [periodicita=" + periodicita + "]";
+		return "Rivista [titolo=" + titolo + ", periodicita=" + periodicita + "]";
 	}
 	
 	public static String toStringFile(Rivista rivista) {
