@@ -51,9 +51,9 @@ SELECT COUNT(*) AS numero_fatture FROM fatture WHERE EXTRACT(YEAR FROM DataFattu
 SELECT SUM(Importo) AS totale_importi FROM fatture GROUP BY EXTRACT(YEAR FROM DataFattura) = 2023;
 
 --Quarto Esercizio
-INSERT INTO prodotti (Descrizione, InProduzione, InCommercio, DataAttivazione, DataDisattivazione) VALUES ('Iphone', true, true, '2017-05-05', '2023-05-05');
+INSERT INTO prodotti (Descrizione, InProduzione, InCommercio, DataAttivazione, DataDisattivazione) VALUES ('Iphone', true, false, '2017-05-05', '2023-05-05');
 INSERT INTO prodotti (Descrizione, InProduzione, InCommercio, DataAttivazione, DataDisattivazione) VALUES ('Samsung', false, false, '2017-05-05', '2023-05-05');
-SELECT Descrizione FROM prodotti WHERE EXTRACT(YEAR FROM DataAttivazione) = 2017 AND InProduzione = true OR InCommercio = true;
+SELECT * FROM prodotti WHERE EXTRACT(YEAR FROM DataAttivazione) = 2017 AND (InProduzione = true) OR (InCommercio = true);
 
 --Quinto Esercizio
 SELECT COUNT(*) AS numero_fatture FROM fatture WHERE EXTRACT(YEAR FROM DataFattura) = 2023 GROUP BY Iva = 20;
