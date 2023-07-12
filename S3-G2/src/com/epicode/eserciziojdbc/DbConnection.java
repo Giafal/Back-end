@@ -69,22 +69,6 @@ public class DbConnection {
 		System.out.println("Student deleted!!!");
 	}
 	
-	public List<Studente> getBest() throws SQLException {
-		String sql = "SELECT name, lastname MAX(avg) FROM studenti";
-		ResultSet rs = st.executeQuery(sql);
-		List<Studente> listaUtenti = new ArrayList<Studente>();
-		while (rs.next()) {
-			Long id = rs.getLong("id");
-			String name = rs.getString("name");
-			String lastname = rs.getString("lastname");
-			String gender = rs.getString("gender");
-			Date birthdate = rs.getDate("birthdate");
-			double avg = rs.getDouble("avg");
-			double min_vote = rs.getDouble("min_vote");
-			double max_vote = rs.getDouble("max_vote");
-			Studente s = new Studente(id, name, lastname, gender, birthdate, avg, min_vote, max_vote);
-			
-		}
-	}
+	
 
 }
