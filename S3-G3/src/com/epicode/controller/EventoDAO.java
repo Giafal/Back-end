@@ -27,10 +27,11 @@ public class EventoDAO {
 		try {
 			//salvaEvento(e1);
 			Evento e = getEventoById(2);
-			//System.out.println(e);
-			//e.setTipoEvento(Type.PUBBLICO);
+			
+			e.setTipoEvento(Type.PRIVATO);
 			//modificaEvento(e);
-			//refreshEvento(e);
+			System.out.println(e);
+			refreshEvento(e);
 			//cancellaEvento(e);
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -67,13 +68,11 @@ public class EventoDAO {
 		em.getTransaction().begin();
 		em.merge(e); 
 		em.getTransaction().commit();
-		log.info(e.getTitolo() + " modified!!!");
+		log.info("Evento" + e.getTitolo() + " modificato!!!");
 	}
 	
 	public static void refreshEvento(Evento e) throws SQLException {
-		em.getTransaction().begin();
 		em.refresh(e);
-		em.getTransaction().commit();
 		log.info("Refresh effettuato con successo");
 	}
 
