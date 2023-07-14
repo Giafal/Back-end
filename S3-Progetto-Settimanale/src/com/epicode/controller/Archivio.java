@@ -28,15 +28,21 @@ public class Archivio {
 		Libro l1 = new Libro("Il Signore degli anelli", 1970, 900, "Tolkien", "fantasy");
 		Libro l2 = new Libro("Il nome della rosa", 1970, 250, "Umberto Eco", "romanzo");
 		
-		//aggiungiArticolo(l1);
+		//aggiungiArticolo(l2);
 		
 		//eliminaArticoloByISBN(6);
 		
 		//Articolo a = getArticoloByISBN(1);
 		//System.out.println(a);
 		
+		Articolo a2 = getArticoloByISBN(8);
+		//System.out.println(a2);
+		
 		//Utente u = getUtenteById(1);
 		//System.out.println(u);
+		
+		Utente utente = getUtenteById(8);
+		//System.out.println(utente);
 		
 		//List<Articolo> listaPerAnno = getArticoliByAnno(1970);
 		//listaPerAnno.forEach(a -> System.out.println(a));
@@ -48,14 +54,19 @@ public class Archivio {
 		//listaPerTitolo.forEach(a -> System.out.println(a));
 		
 		Utente u1 = new Utente("Gianluca", "Falcone", LocalDate.of(1987,6,1));
-		//aggiungiUtente(u1);
+		Utente u2 = new Utente("Andrea", "Bardi", LocalDate.of(2001,5,5));
+		//aggiungiUtente(u2);
 		
 		//Prestito p1 = new Prestito(u, a, LocalDate.of(2023, 2, 2), LocalDate.of(2023, 2, 2).plusDays(30) , LocalDate.of(2023, 3, 3));
-	    //aggiungiPrestito(p1);
+	    //Prestito p2 = new Prestito(utente, a2, LocalDate.of(2023,5,5), LocalDate.of(2023,5,5).plusDays(30), LocalDate.of(2023,7,5));
+		//aggiungiPrestito(p2);
 		//eliminaPrestito(8);
 		
-		List<Articolo> listaPerNumeroTessera = getArticoliInPrestitoByNumeroTessera(1);
-		listaPerNumeroTessera.forEach(b -> System.out.println(b));
+		//List<Articolo> listaPerNumeroTessera = getArticoliInPrestitoByNumeroTessera(1);
+		//listaPerNumeroTessera.forEach(b -> System.out.println(b));
+		
+//		List<Prestito> listaPrestitiScaduti = getPrestitiScaduti();
+//		listaPrestitiScaduti.forEach(c -> System.out.println(c));
 		
 
 	}
@@ -135,7 +146,12 @@ public class Archivio {
 	public static List<Articolo> getArticoliInPrestitoByNumeroTessera(Integer nTessera) {
 		Query q = em.createNamedQuery("ricercaPerNumeroTessera");
 		q.setParameter("numerotessera", nTessera);
-		return (List<Articolo>) q.getResultList();
+		return q.getResultList();
+	}
+	
+	public static List<Prestito> getPrestitiScaduti() {
+		Query q = em.createNamedQuery("ricercaPrestitiScaduti");
+		return q.getResultList();
 	}
 	
 

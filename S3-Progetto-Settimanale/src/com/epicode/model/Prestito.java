@@ -13,6 +13,7 @@ import javax.persistence.NamedQuery;
 
 @Entity
 @NamedQuery(name = "ricercaPerNumeroTessera", query = "select c from Prestito c where c.utente.numeroTessera = :numerotessera")
+@NamedQuery(name = "ricercaPrestitiScaduti", query = "select c from Prestito c where c.dataRestituzionePrevista < c.dataRestituzioneEffettiva")
 public class Prestito {
 	
 	@Id
