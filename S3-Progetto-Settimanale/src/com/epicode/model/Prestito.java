@@ -12,8 +12,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.NamedQuery;
 
 @Entity
-@NamedQuery(name = "ricercaPerNumeroTessera", query = "select c from Prestito c where c.utente.numeroTessera = :numerotessera")
-@NamedQuery(name = "ricercaPrestitiScaduti", query = "select c from Prestito c where c.dataRestituzionePrevista < c.dataRestituzioneEffettiva")
+@NamedQuery(name = "ricercaPerNumeroTessera", query = "SELECT c.elementoPrestato FROM Prestito c JOIN c.utente u WHERE u.numeroTessera = :numerotessera")
+@NamedQuery(name = "ricercaPrestitiScaduti", query = "SELECT c FROM Prestito c WHERE c.dataRestituzionePrevista < c.dataRestituzioneEffettiva")
 public class Prestito {
 	
 	@Id
