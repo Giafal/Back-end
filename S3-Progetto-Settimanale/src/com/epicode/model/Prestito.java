@@ -40,7 +40,7 @@ public class Prestito {
 		this.utente = utente;
 		this.elementoPrestato = elementoPrestato;
 		this.dataInizioPrestito = dataInizioPrestito;
-		this.dataRestituzionePrevista = dataInizioPrestito.plusDays(30);
+		this.dataRestituzionePrevista = dataRestituzionePrevista;
 		this.dataRestituzioneEffettiva = dataRestituzioneEffettiva;
 	}
 

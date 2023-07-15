@@ -1,6 +1,6 @@
 package com.epicode.model;
 
-import javax.persistence.Column;
+
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
