@@ -48,13 +48,6 @@ public class MenuConfig {
 	public Ordine ordine() {
 		return new Ordine();
 	}
-	
-	
-	@Bean
-	@Scope("application")
-	public Ordine tavolo() {
-		return new Ordine();
-	}
 
 	@Bean
 	@Scope("prototype")

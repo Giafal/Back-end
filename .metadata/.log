@@ -1064,3 +1064,162 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:33:43.088
 !MESSAGE Classpath changed for project: S5-G2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:41:33.504
+!MESSAGE Classpath changed for project: S5-G2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:42:57.530
+!MESSAGE Classpath changed for project: S5-G2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:44:33.138
+!MESSAGE Classpath changed for project: S5-G2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:45:27.894
+!MESSAGE Classpath changed for project: S5-G2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:47:06.531
+!MESSAGE Classpath changed for project: S5-G2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:54:48.502
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:54:50.819
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:54:50.820
+!MESSAGE Boot project ADDED: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:54:52.006
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:58:26.456
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:00:13.466
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:00:53.014
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:01:52.068
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:03:40.565
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:05:47.426
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:07:46.201
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:13:52.845
+!MESSAGE Classpath changed for project: S5-G2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:16:35.618
+!MESSAGE Classpath changed for project: S5-G2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:22:29.726
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:27:05.434
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:32:40.885
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:36:00.102
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:44:52.312
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:55:17.941
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:02:14.136
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:08:13.529
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:09:57.991
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:13:47.131
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:15:52.250
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:17:21.679
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:17:47.113
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:21:17.923
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:24:57.135
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:25:29.080
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:25:33.947
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:30:00.533
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:30:48.571
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:31:03.287
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:34:51.487
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:37:14.126
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:37:50.214
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:39:12.012
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:39:26.964
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:40:43.552
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:41:18.017
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:41:40.827
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:42:08.935
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:42:39.647
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:43:29.437
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:46:47.177
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:48:23.612
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:49:12.793
+!MESSAGE Classpath changed for project: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:52:29.300
+!MESSAGE Classpath changed for project: S5-G3

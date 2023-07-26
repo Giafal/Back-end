@@ -25,13 +25,13 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class MenuRunner implements CommandLineRunner {
 
-	@Autowired
+
 	private Menu menu;
 
-	@Autowired
+    @Autowired
 	private ApplicationContext ctx;
 
-	@Value("${S5-G2.costocoperto}")
+	@Value("${S5G2.costocoperto}")
 	private Double costoCoperto;
 
 	@Override
