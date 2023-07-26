@@ -1,2 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="com.epicode.configBeans.ConfigurationMenu"/>
+    <fullyQualifiedTypeName name="com.epicode.configBeans.Pizza"/>
+    <fullyQualifiedTypeName name="com.epicode.configBeans.Bevanda"/>
+    <fullyQualifiedTypeName name="com.epicode.configBeans.Topping"/>
+    <fullyQualifiedTypeName name="com.epicode.configBeans.Franchise"/>
+    <fullyQualifiedTypeName name="com.epicode.interfaces.FoodItem"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.epicode.interfaces.MenuItem"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.epicode.interfaces.Pizza"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.epicode.model.ToppingHam"/>
+    <fullyQualifiedTypeName name="com.epicode.model.PizzaHawaiian"/>
+    <fullyQualifiedTypeName name="com.epicode.model.PizzaSalami"/>
+    <fullyQualifiedTypeName name="com.epicode.model.Drink"/>
+    <fullyQualifiedTypeName name="com.epicode.model.DrinkLemonade"/>
+    <fullyQualifiedTypeName name="com.epicode.model.Franchise"/>
+    <fullyQualifiedTypeName name="com.epicode.model.FranchiseMug"/>
+    <fullyQualifiedTypeName name="com.epicode.model.Menu"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.epicode.config.MenuConfig"/>
+    <fullyQualifiedTypeName name="com.epicode.model.PizzaMargherita"/>
+    <fullyQualifiedTypeName name="com.epicode.model.ToppingCheese"/>
+    <fullyQualifiedTypeName name="com.epicode.model.PizzaFamilySize"/>
+</qualifiedTypeNameHistroy>
