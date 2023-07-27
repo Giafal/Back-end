@@ -34,6 +34,7 @@ public class MenuConfig {
 		menu.getMenuTopping().add(toppingCheese(null));
 		menu.getMenuTopping().add(toppingHam(null));
 		menu.getMenuDrink().add(drinkLemonade());
+		menu.getMenuFranchise().add(franchiseMug());
 		return menu;
 	}
 

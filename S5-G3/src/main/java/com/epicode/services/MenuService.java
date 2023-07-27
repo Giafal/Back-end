@@ -1,5 +1,7 @@
 package com.epicode.services;
 
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.ObjectProvider;
@@ -42,7 +44,25 @@ public class MenuService {
 	
 	
 	public void stampaMenu() {
-		System.out.println(menuProvider.getObject());
+		Menu m = menuProvider.getObject();
+		System.out.println("***MENU***");
+		System.out.println();
+		System.out.println("PIZZE:");
+		List<Pizza> listaPizze = m.getMenuPizza();
+		listaPizze.forEach(p -> System.out.println(p.getMenuItemLine()));
+		System.out.println();
+		System.out.println("DRINK:");
+		List<Drink> listaDrink = m.getMenuDrink();
+		listaDrink.forEach(d -> System.out.println(d.getMenuItemLine()));
+		System.out.println();
+		System.out.println("TOPPING:");
+		List<PizzaTopping> listaTopping = m.getMenuTopping();
+		listaTopping.forEach(t -> System.out.println(t.getMenuItemLine()));
+		System.out.println();
+		System.out.println("FRANCHISE:");
+		List<Franchise> listaFranchise = m.getMenuFranchise();
+		listaFranchise.forEach(f -> System.out.println(f.getMenuItemLine()));
+		
 	}
 	
 	public Tavolo creaTavolo(Integer numero, Integer numeroMassimoCoperti, boolean occupato) {

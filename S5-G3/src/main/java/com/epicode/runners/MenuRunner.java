@@ -44,6 +44,9 @@ public class MenuRunner implements CommandLineRunner {
 		
 		ms.stampaOrdine(ordine);
 		
+		ms.stampaMenu();
+		
+		
 		
 
 
