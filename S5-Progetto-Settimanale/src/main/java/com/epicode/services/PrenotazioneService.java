@@ -25,7 +25,7 @@ public class PrenotazioneService {
 	
 	
 	public Prenotazione creaPrenotazione(Postazione postazione, Utente utente, LocalDate dataPrenotazione) {
-		if(repo.findByPostazioneAndDataPrenotazione(postazione, dataPrenotazione) == null && repo.findByUtenteAndDataPrenotazione(utente, dataPrenotazione) == null) {
+		if(repo.findByPostazioneAndDataPrenotazione(postazione, dataPrenotazione).size() < postazione.getNumeroMassimoOccupanti() && repo.findByUtenteAndDataPrenotazione(utente, dataPrenotazione) == null) {
 		Prenotazione p = prenotazioneProvider.getObject();
 		p.setPostazione(postazione);
 		p.setUtente(utente);
