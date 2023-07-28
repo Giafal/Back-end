@@ -25,7 +25,8 @@ public class PrenotazioneService {
 	
 	
 	public Prenotazione creaPrenotazione(Postazione postazione, Utente utente, LocalDate dataPrenotazione) {
-		if(repo.findByPostazioneAndDataPrenotazione(postazione, dataPrenotazione).size() < postazione.getNumeroMassimoOccupanti() && repo.findByUtenteAndDataPrenotazione(utente, dataPrenotazione) == null) {
+		if(repo.findByPostazioneAndDataPrenotazione(postazione, dataPrenotazione).size() < postazione.getNumeroMassimoOccupanti()) {
+			if (repo.findByUtenteAndDataPrenotazione(utente, dataPrenotazione) == null) {
 		Prenotazione p = prenotazioneProvider.getObject();
 		p.setPostazione(postazione);
 		p.setUtente(utente);
@@ -35,7 +36,11 @@ public class PrenotazioneService {
 		postazione.setOccupata(true);
 		return p;
 		} else {
-			log.error("La postazione scelta è già occupata oppure hai già prenotato una postazione in questa data!!!");
+			log.error("Hai già prenotato una postazione in questa data!!!");
+			return null;
+		}
+		} else {
+			log.error("La postazione scelta è già occupata!!!");
 			return null;
 		}
 	

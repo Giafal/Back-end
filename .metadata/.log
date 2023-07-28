@@ -3758,3 +3758,12 @@ Java Model Exception: Error in Java Model (code 969): modificaPrenotazione(Posta
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 18:17:33.500
 !MESSAGE Classpath changed for project: S5-Progetto-Settimanale
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 18:28:33.055
+!MESSAGE Classpath changed for project: S5-Progetto-Settimanale
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 18:29:12.671
+!MESSAGE Classpath changed for project: S5-Progetto-Settimanale
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 18:30:06.067
+!MESSAGE Classpath changed for project: S5-Progetto-Settimanale

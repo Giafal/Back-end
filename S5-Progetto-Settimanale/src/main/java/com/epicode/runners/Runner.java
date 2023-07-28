@@ -53,8 +53,8 @@ public class Runner implements CommandLineRunner {
 		Utente utente3 = utenteService.findById(3l);
 		
 		prenotazioneService.creaPrenotazione(postazione1, utente1, LocalDate.of(2023, 7, 28));
-		prenotazioneService.creaPrenotazione(postazione1, utente2, LocalDate.of(2023, 7, 28));
-		prenotazioneService.creaPrenotazione(postazione3, utente3, LocalDate.of(2023, 8, 1));
+		prenotazioneService.creaPrenotazione(postazione2, utente1, LocalDate.of(2023, 7, 28));
+		prenotazioneService.creaPrenotazione(postazione1, utente3, LocalDate.of(2023, 7, 28));
 		
 		postazioneService.findByTipoAndCitta(TipoPostazione.PRIVATO, "Andria");
 		
