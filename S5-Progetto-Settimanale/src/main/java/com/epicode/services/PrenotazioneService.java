@@ -32,6 +32,7 @@ public class PrenotazioneService {
 		p.setDataPrenotazione(dataPrenotazione);
 		repo.save(p);
 		log.info("Prenotazione numero: " + p.getId() + " salvata nel DB!!!");
+		postazione.setOccupata(true);
 		return p;
 		} else {
 			log.error("La postazione scelta è già occupata oppure hai già prenotato una postazione in questa data!!!");
