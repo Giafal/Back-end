@@ -88,7 +88,7 @@ public class MenuService {
 		return o;
 	}
 	
-	public void valorizzaOrdine(Ordine ordine) {
+	//public void valorizzaOrdine(Ordine ordine) {
 //		Pizza p1 = margheritaProvider.getObject();
 //		ordine.addMenuItem(p1);
 //		Pizza p2 = hawaiianProvider.getObject();
@@ -97,7 +97,7 @@ public class MenuService {
 //		ordine.addMenuItem(p3);
 //		Drink d1 = lemonadeProvider.getObject();
 //		ordine.addMenuItem(d1);
-	}
+	//}
 	
 //	public void stampaOrdine(Ordine ordine) {
 //		log.info("****** ORDINE ******");
