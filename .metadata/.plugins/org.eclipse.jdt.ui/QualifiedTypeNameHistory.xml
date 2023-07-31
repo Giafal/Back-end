@@ -49,15 +49,15 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.epicode.services.EdificioService"/>
     <fullyQualifiedTypeName name="com.epicode.services.PostazioneService"/>
-    <fullyQualifiedTypeName name="com.epicode.model.Edificio"/>
     <fullyQualifiedTypeName name="com.epicode.services.UtenteService"/>
     <fullyQualifiedTypeName name="com.epicode.services.PrenotazioneService"/>
-    <fullyQualifiedTypeName name="com.epicode.model.Prenotazione"/>
-    <fullyQualifiedTypeName name="com.epicode.model.Utente"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="com.epicode.model.Postazione"/>
-    <fullyQualifiedTypeName name="com.epicode.enumerations.TipoPostazione"/>
     <fullyQualifiedTypeName name="org.springframework.data.repository.query.Param"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.epicode.model.Edificio"/>
+    <fullyQualifiedTypeName name="com.epicode.model.Postazione"/>
+    <fullyQualifiedTypeName name="com.epicode.enumerations.TipoPostazione"/>
+    <fullyQualifiedTypeName name="com.epicode.model.Prenotazione"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="com.epicode.model.Utente"/>
 </qualifiedTypeNameHistroy>
