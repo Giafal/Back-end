@@ -4210,3 +4210,12 @@ Java Model Exception: Error in Java Model (code 969): rimuoviContatto(Edificio) 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 16:53:06.214
 !MESSAGE Classpath changed for project: S6-G1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 17:03:04.093
+!MESSAGE Classpath changed for project: S6-G1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 17:05:43.373
+!MESSAGE Classpath changed for project: S6-G1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 17:10:14.464
+!MESSAGE Classpath changed for project: S6-G1
