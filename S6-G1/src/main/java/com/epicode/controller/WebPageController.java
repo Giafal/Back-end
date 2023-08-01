@@ -29,7 +29,7 @@ public class WebPageController {
 		return "rubrica";
 	}
 	
-	@GetMapping("/rubricadettaglio/{id}")
+	@GetMapping("/rubrica/{id}")
 	public ModelAndView getRubricaById(@PathVariable Long id) {
 		Contatto contatto = cs.findById(id);
 		ModelAndView model = new ModelAndView("rubricadettaglio");
