@@ -5688,3 +5688,6 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 16:31:55.772
 !MESSAGE Classpath changed for project: S6-G2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 16:42:32.924
+!MESSAGE Classpath changed for project: S6-G2

@@ -41,7 +41,7 @@ public class PrenotazioneController {
 	}
 	
 	@PostMapping
-	public ResponseEntity<?> createContact(@RequestBody Prenotazione p) {
+	public ResponseEntity<?> create(@RequestBody Prenotazione p) {
 		try {
 			Prenotazione c = ps.salvaPrenotazione(p);
 			return new ResponseEntity<Prenotazione>(c, HttpStatus.CREATED);
@@ -51,7 +51,7 @@ public class PrenotazioneController {
 	}
 	
 	@PutMapping("/{id}")
-	public ResponseEntity<?> updateContact(@PathVariable Long id, @RequestBody Prenotazione p) {
+	public ResponseEntity<?> update(@PathVariable Long id, @RequestBody Prenotazione p) {
 		try {
 			Prenotazione c = ps.updatePrenotazione(id, p);
 			return new ResponseEntity<Prenotazione>(c, HttpStatus.OK);
@@ -61,7 +61,7 @@ public class PrenotazioneController {
 	}
 	
 	@DeleteMapping("/{id}")
-	public ResponseEntity<String> removeContact(@PathVariable Long id) {
+	public ResponseEntity<String> remove(@PathVariable Long id) {
 		try {
 			String msg = ps.rimuoviPrenotazioneById(id);
 			return new ResponseEntity<String>(msg, HttpStatus.OK);
