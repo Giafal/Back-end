@@ -5691,3 +5691,333 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 16:42:32.924
 !MESSAGE Classpath changed for project: S6-G2
+!SESSION 2023-08-03 15:06:37.634 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2023-08-03 15:07:14.108
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-03 15:07:14.108
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-03 15:07:14.108
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-03 15:07:20.906
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Lenovo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\Lenovo\eclipse\jee-2022-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Lenovo\eclipse\jee-2022-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Lenovo\eclipse\jee-2022-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Lenovo/eclipse-workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1691068040902
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:20.908
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-03 15:07:20.967
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2120
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-03 15:07:23.610
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-08-03 15:07:24.253
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:288)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:24.757
+!MESSAGE Boot project ADDED: S5-G1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:24.757
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:24.759
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:24.920
+!MESSAGE Boot project ADDED: S5-G2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:25.053
+!MESSAGE Boot project ADDED: S5-G3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:25.135
+!MESSAGE Boot project ADDED: S5-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:25.183
+!MESSAGE Boot project ADDED: S5-Progetto-Settimanale
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:25.292
+!MESSAGE Boot project ADDED: S6-G1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:25.292
+!MESSAGE Boot project ADDED: S6-G2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:25.306
+!MESSAGE Boot project ADDED: Spring_4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:25.397
+!MESSAGE Boot project ADDED: Spring_5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:07:25.478
+!MESSAGE Boot project ADDED: introSpring
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-08-03 15:07:28.651
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:09:41.420
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:09:43.273
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:09:43.275
+!MESSAGE Boot project ADDED: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:09:43.894
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:09:47.315
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:09:48.284
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:09:50.963
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.eclipse.jface 2 0 2023-08-03 15:10:08.410
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-03 15:10:08.410
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:10:36.063
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:10:37.361
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:10:38.050
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:12:42.768
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:14:29.855
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-08-03 15:14:48.761
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:16:32.205
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:16:35.964
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:16:38.362
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:16:40.886
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:16:57.687
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:17:17.345
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:17:26.031
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:17:37.732
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:17:53.482
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:18:06.553
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:18:22.889
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:18:34.402
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:18:50.109
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:19:02.354
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:19:18.042
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:19:36.924
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:19:49.394
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:20:02.072
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:20:16.558
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:20:37.159
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:20:53.810
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:22:41.892
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:24:11.479
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:25:01.051
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:25:07.651
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-08-03 15:25:31.642
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:25:44.769
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:26:09.996
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:26:59.881
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:27:42.948
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:28:19.852
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:28:46.680
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:30:11.795
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:33:45.168
+!MESSAGE Classpath changed for project: S6-G4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-03 15:34:12.988
+!MESSAGE Classpath changed for project: S6-G4
