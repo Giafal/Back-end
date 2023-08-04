@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.epicode.interfaces.MenuItem"/>
-    <fullyQualifiedTypeName name="com.epicode.model.Tavolo"/>
-    <fullyQualifiedTypeName name="com.epicode.repository.TavoloDAORepository"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Enumerated"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.EnumType"/>
-    <fullyQualifiedTypeName name="lombok.Builder"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-    <fullyQualifiedTypeName name="com.epicode.repositories.EdificioRepository"/>
-    <fullyQualifiedTypeName name="com.epicode.repositories.PostazioneRepository"/>
-    <fullyQualifiedTypeName name="com.epicode.repositories.UtenteRepository"/>
-    <fullyQualifiedTypeName name="com.epicode.repositories.PrenotazioneRepository"/>
     <fullyQualifiedTypeName name="com.epicode.services.EdificioService"/>
     <fullyQualifiedTypeName name="com.epicode.services.PostazioneService"/>
     <fullyQualifiedTypeName name="com.epicode.services.UtenteService"/>
@@ -60,4 +46,18 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="com.epicode.Spring.security.security.JwtAuthenticationEntryPoint"/>
+    <fullyQualifiedTypeName name="com.epicode.Spring.security.security.JwtAuthenticationFilter"/>
+    <fullyQualifiedTypeName name="com.epicode.security.payload.JWTAuthResponse"/>
+    <fullyQualifiedTypeName name="com.epicode.security.payload.ErrorDetails"/>
+    <fullyQualifiedTypeName name="com.epicode.security.service.AuthService"/>
+    <fullyQualifiedTypeName name="com.epicode.security.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.epicode.security.repository.RoleRepository"/>
+    <fullyQualifiedTypeName name="com.epicode.security.security.JwtTokenProvider"/>
+    <fullyQualifiedTypeName name="com.epicode.security.payload.LoginDto"/>
+    <fullyQualifiedTypeName name="com.epicode.security.payload.RegisterDto"/>
+    <fullyQualifiedTypeName name="com.epicode.security.exception.MyAPIException"/>
+    <fullyQualifiedTypeName name="com.epicode.security.entity.User"/>
+    <fullyQualifiedTypeName name="com.epicode.security.entity.Role"/>
+    <fullyQualifiedTypeName name="com.epicode.security.entity.ERole"/>
 </qualifiedTypeNameHistroy>
