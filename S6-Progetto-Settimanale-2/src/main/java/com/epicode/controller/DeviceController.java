@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -38,18 +39,21 @@ public class DeviceController {
 	}
 	
 	@PostMapping
+	@PreAuthorize("isAuthenticated()")
 	public ResponseEntity<?> createDevice(@RequestBody Device device) {
 		Device d = devService.createDevice(device);
 		return new ResponseEntity<Device>(d, HttpStatus.OK);
 	}
 	
 	@PutMapping("/{id}")
+	@PreAuthorize("isAuthenticated()")
 	public ResponseEntity<?> updateDevice(@PathVariable Long id, @RequestBody Device device) {
 		Device d = devService.modificaDevice(id, device);
 		return new ResponseEntity<Device>(d, HttpStatus.OK);
 	}
 	
 	@DeleteMapping("/{id}")
+	@PreAuthorize("isAuthenticated()")
 	public ResponseEntity<String> removeDevice(@PathVariable Long id) {
 		String msg = devService.rimuoviDeviceById(id);
 		return new ResponseEntity<String>(msg, HttpStatus.OK);

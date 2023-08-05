@@ -35,7 +35,7 @@ public class DeviceService {
 		d.setState(state);
 		d.setDeviceType(type);
 		repo.save(d);
-		log.info("Device " + d.getDeviceType() + " salvato nel DB!!!");
+		log.info("Device " + d.getDeviceType() + " saved!!!");
 		return d;
 	}
 	
@@ -66,7 +66,7 @@ public class DeviceService {
 		}
 		Device d = findById(id);
 		repo.delete(d);
-		return "Device cancellato!!";
+		return "Device deleted!!";
 	}
 	
 	public void assegnaDevice(Device d, Long id) {
