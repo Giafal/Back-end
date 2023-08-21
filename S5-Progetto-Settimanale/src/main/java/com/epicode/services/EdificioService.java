@@ -20,11 +20,12 @@ public class EdificioService {
 	@Autowired @Qualifier("edificioBean") private ObjectProvider<Edificio> edificioProvider;
 	
 	
-	public Edificio creaEdificio(String nome, String indirizzo, String citta) {
+	public Edificio creaEdificio(String nome, String indirizzo, String citta, String codiceSegreto) {
 		Edificio e = edificioProvider.getObject();
 		e.setNome(nome);
 		e.setIndirizzo(indirizzo);
 		e.setCitta(citta);
+		e.setCodiceSegreto(codiceSegreto);
 		repo.save(e);
 		log.info("Edificio " + e.getNome() + " salvato nel DB!!!");
 		return e;

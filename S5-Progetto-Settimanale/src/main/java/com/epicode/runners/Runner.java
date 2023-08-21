@@ -28,9 +28,9 @@ public class Runner implements CommandLineRunner {
 		
 		System.out.println("Run...");
 		
-		edificioService.creaEdificio("Palazzo Arnieci", "Via Canosa", "Andria");
-		edificioService.creaEdificio("Palazzo Vitti", "Via Regina Margherita", "Barletta");
-		edificioService.creaEdificio("Palazzo Nugnes", "Via Bovio", "Trani");
+		edificioService.creaEdificio("Palazzo Arnieci", "Via Canosa", "Andria", "00000000");
+		edificioService.creaEdificio("Palazzo Vitti", "Via Regina Margherita", "Barletta", "12345678");
+		edificioService.creaEdificio("Palazzo Nugnes", "Via Bovio", "Trani", "87654321");
 		
 		Edificio edificio1 = edificioService.findById(1l);
 		Edificio edificio2 = edificioService.findById(2l);

@@ -1,5 +1,8 @@
 package com.epicode.model;
 
+import com.epicode.config.CodiceSegretoConverter;
+
+import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -24,6 +27,8 @@ public class Edificio {
 	private String nome;
 	private String indirizzo;
 	private String citta;
+	@Convert(converter = CodiceSegretoConverter.class)
+	private String codiceSegreto;
 	
 	
 	public Edificio(String nome, String indirizzo, String citta) {
