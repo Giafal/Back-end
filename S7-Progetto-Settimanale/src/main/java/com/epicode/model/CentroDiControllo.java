@@ -2,23 +2,38 @@ package com.epicode.model;
 
 
 
-import org.springframework.stereotype.Component;
-
-import com.epicode.interfaces.SondaListener;
 
 
+import java.util.List;
 
-@Component
-public class CentroDiControllo implements SondaListener {
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+
+
+
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class CentroDiControllo {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	@OneToMany
+	private List<Sonda> sonde;
 	
 
-	@Override
-	public void segnalaIncendio(Sonda sonda) {
-		inviaAllarme(sonda);
-		
-	}
 	
-	private void inviaAllarme(Sonda sonda) {
+	public void inviaAllarme(Sonda sonda) {
         String url = "http://host/alarm?idsonda=" + sonda.getId() +
                      "&lat=" + sonda.getLatitude() +
                      "&lon=" + sonda.getLongitude() +

@@ -10,7 +10,7 @@ import com.epicode.model.Sonda;
 public class SondaConfig {
 	
 	@Bean
-	@Scope("singleton")
+	@Scope("prototype")
 	public Sonda sonda() {
 		return new Sonda();
 	}
