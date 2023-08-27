@@ -10031,3 +10031,27 @@ java.lang.Exception: Resource '/S7-Progetto-Settimanale/src/main/java/com/epicod
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-27 09:33:17.853
 !MESSAGE Classpath changed for project: S7-Progetto-Settimanale
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-27 09:41:24.307
+!MESSAGE Classpath changed for project: S7-Progetto-Settimanale
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-27 09:43:21.323
+!MESSAGE Classpath changed for project: S7-Progetto-Settimanale
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-08-27 09:44:02.333
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-27 09:44:33.054
+!MESSAGE Classpath changed for project: S7-Progetto-Settimanale
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-27 09:48:38.753
+!MESSAGE Classpath changed for project: S7-Progetto-Settimanale
