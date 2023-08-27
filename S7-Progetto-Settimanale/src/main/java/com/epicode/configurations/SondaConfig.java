@@ -9,7 +9,7 @@ import com.epicode.model.Sonda;
 @Configuration
 public class SondaConfig {
 	
-	@Bean
+	@Bean("sondaBean")
 	@Scope("prototype")
 	public Sonda sonda() {
 		return new Sonda();

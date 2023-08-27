@@ -1,23 +1,25 @@
 package com.epicode.services;
 
+import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.epicode.model.CentroDiControllo;
+
 import com.epicode.model.Sonda;
-import com.epicode.model.SondaFactory;
 import com.epicode.repositories.SondaRepository;
 
 @Service
 public class SondaService {
-    @Autowired
-    private SondaFactory sondaFactory;
     
-    @Autowired
-    private SondaRepository repo;
+    @Autowired private SondaRepository repo;
+    
+    @Autowired @Qualifier("sondaBean") private ObjectProvider<Sonda> sondaProvider;
 
     public Sonda installaSonda(double latitude, double longitude) {
-        Sonda sonda = sondaFactory.creaSonda(latitude, longitude);
+        Sonda sonda = sondaProvider.getObject();
+        sonda.setLatitude(latitude);
+        sonda.setLongitude(longitude);
         repo.save(sonda);
         return sonda;
     }
